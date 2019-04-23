@@ -1,6 +1,7 @@
 <template>
 	<view class="contain">
 		<view class="content">
+			<button @click="pay">支付</button>
 			<view v-if="hasLogin" class="hello">
 				<view class="title">
 					您好 {{userName}}，您已成功登录。
@@ -30,6 +31,11 @@
 
     export default {
         computed: mapState(['forcedLogin', 'hasLogin', 'userName']),
+		methods:{
+			pay(){
+				pay();
+			}
+		},
         onLoad() {
             if (!this.hasLogin) {
                 uni.showModal({

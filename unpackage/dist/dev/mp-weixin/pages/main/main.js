@@ -124,6 +124,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js"); //
 //
 //
@@ -149,11 +150,16 @@ var _vuex = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.j
 //
 //
 //
-var _default = { computed: (0, _vuex.mapState)(['forcedLogin', 'hasLogin', 'userName']), onLoad: function onLoad() {var _this = this;if (!this.hasLogin) {uni.showModal({ title: '未登录', content: '您未登录，需要登录后才能继续', /**
-                                                                                                                                                                                                                    * 如果需要强制登录，不显示取消按钮
-                                                                                                                                                                                                                    */showCancel: !this.forcedLogin, success: function success(res) {if (res.confirm) {/**
-                                                                                                                                                                                                                                                                                                        * 如果需要强制登录，使用reLaunch方式
-                                                                                                                                                                                                                                                                                                        */if (_this.forcedLogin) {uni.reLaunch({ url: '../login/login' });} else {uni.navigateTo({ url: '../login/login' });}}
+//
+var _default = { computed: (0, _vuex.mapState)(['forcedLogin', 'hasLogin', 'userName']), methods: { pay: function (_pay) {function pay() {return _pay.apply(this, arguments);}pay.toString = function () {return _pay.toString();};return pay;}(function () {pay();}) }, onLoad: function onLoad() {var _this = this;if (!this.hasLogin) {uni.showModal({ title: '未登录', content: '您未登录，需要登录后才能继续', /**
+                                                                                                                                                                                                                                                                                                                                                                                                    * 如果需要强制登录，不显示取消按钮
+                                                                                                                                                                                                                                                                                                                                                                                                    */showCancel: !this.forcedLogin, success: function success(res) {if (res.confirm) {/**
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        * 如果需要强制登录，使用reLaunch方式
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        */if (_this.forcedLogin) {uni.reLaunch({ url: '../login/login' });} else {uni.navigateTo({
+                url: '../login/login' });
+
+            }
+          }
         } });
 
     }
