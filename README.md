@@ -15,7 +15,7 @@ static 目录结构说明
 ├── ext_app    // 外部平台列表
 └── vanke      // 使用名称为vanke平台的js
    ├── index.js     //我们的js
-   └── module_sdk.js    //p1平台的js—sdk
+   └── module_sdk.js    //vanke平台的js—sdk
 
 ```
 
