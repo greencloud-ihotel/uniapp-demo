@@ -125,10 +125,9 @@ createPage(_user.default);
   !*** /Users/huqiliang/Documents/HBuilderProjects/hello-uniapp/pages.json ***!
   \***************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
+throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-pages-loader/lib/index.js):\nSyntaxError: Unexpected token } in JSON at position 2904\n    at JSON.parse (<anonymous>)\n    at parseJson (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-cli-shared/lib/json.js:17:20)\n    at parseManifestJson (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-cli-shared/lib/manifest.js:32:10)\n    at Object.module.exports (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-pages-loader/lib/index-new.js:32:24)\n    at Object.module.exports (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-pages-loader/lib/index.js:25:35)");
 
 /***/ }),
 

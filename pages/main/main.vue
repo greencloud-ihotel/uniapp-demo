@@ -1,6 +1,6 @@
 <template>
 	<view class="contain">
-		<view class="bg">
+		<view class="content">
 			<view v-if="hasLogin" class="hello">
 				<view class="title">
 					您好 {{userName}}，您已成功登录。

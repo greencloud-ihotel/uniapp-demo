@@ -1,5 +1,5 @@
 {
-    "name" : "hello-uniapp",
+    "name" : "应用名字",
     "appid" : "__UNI__9A779C7",
     "description" : "登录模板",
     "versionName" : "1.0.0",
@@ -53,5 +53,9 @@
             "urlCheck" : false
         },
         "usingComponents" : true
+    },
+    "h5" : {
+        "template" : "template.h5.html",
+        "title" : "vanke"
     }
 }

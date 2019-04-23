@@ -9,7 +9,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.6.4",
   "appid": "wxadfb33726b129153",
-  "projectname": "hello-uniapp",
+  "projectname": "应用名字",
   "condition": {
     "search": {
       "current": -1,
